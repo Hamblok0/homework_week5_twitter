@@ -9,14 +9,40 @@
     <header>
       <section class="mainhead">
         <a class="twitMain" href="#">Twitter</a>
-        <a class="loginButton" href="#">Login</a>
+        <a class="loginButton" href="#login">Login</a>
       </section>
     </header>
+    <main>
 
+    </main>
 
+    <script type="text/template" id="loginTemplate">
+      <form>
+        <p>Login</p><br>
+        <input class="emailForm" type="text" name="name" value="" placeholder="Email">
+        <br>
+        <input class="pwordForm" type="text" name="name" value="" placeholder="Password">
+        <br>
+        <button type="button" name="Submit">Submit</button>
+        <a class="regLink" href="#register">Register</a>
+      </form>
+    </script>
+    <script type="text/template" id="regTemplate">
+      <form>
+        <p>Register</p><br>
+        <input class="emailForm" type="text" name="name" value="" placeholder="Email">
+        <br>
+        <input class="pwordForm" type="text" name="name" value="" placeholder="Password">
+        <br>
+        <input class="pwrdConfirm" type="text" name="name" value="" placeholder="Confirm Password">
+        <br>
+        <button type="button" class="regButton" href="#" name="Register">
+        <a class="registerButton" href="#register">Register</a>
+      </form>
+      </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
   </body>
